@@ -2,7 +2,17 @@
 #!desc=自定义规则
 #!category=DDQP
 [Rule]
-
+DOMAIN-SUFFIX,www.v2ex.com,🌀 Automatic,extended-matching // Added for: www.v2ex.com:443
+DOMAIN-SUFFIX,cambly.com,🇺🇸 United States,extended-matching // Added for: static.cambly.com:443
+IP-ASN,8075,♣️ Microsoft,no-resolve // 微软
+IP-CIDR,192.168.1.0/24,ℹ️内网,no-resolve
+# IP-CIDR,192.168.0.0/16,ℹ️内网,no-resolve
+DOMAIN-SUFFIX,haiwaikan.com,🌀 Automatic,extended-matching
+DOMAIN-SUFFIX,cdn.iz8qkg.com,🌀 Automatic,extended-matching
+DOMAIN-SUFFIX,cdn.kin6c1.com,🌀 Automatic
+DOMAIN-SUFFIX,cdn.v82u1l.com,🌀 Automatic,extended-matching
+# DOMAIN-KEYWORD,ddys,DIRECT
+DOMAIN-SUFFIX,91porn.com,🌀 Automatic,extended-matching
 # JCI Reject
 DOMAIN-SUFFIX,go.johnsoncontrols.com,REJECT-DROP,extended-matching // JCI
 DOMAIN-SUFFIX,zscaler.com,REJECT,extended-matching
