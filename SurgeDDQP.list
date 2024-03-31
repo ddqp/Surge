@@ -15,13 +15,13 @@ DOMAIN-SUFFIX,cdn.v82u1l.com,🌀 Automatic,extended-matching
 DOMAIN-SUFFIX,91porn.com,🌀 Automatic,extended-matching
 # JCI Reject
 DOMAIN-SUFFIX,go.johnsoncontrols.com,REJECT-DROP,extended-matching // JCI
-DOMAIN-SUFFIX,zscaler.com,REJECT,extended-matching
-DOMAIN-SUFFIX,zscloud.net,REJECT,extended-matching
-DOMAIN-KEYWORD,rapid7,REJECT,extended-matching
-DOMAIN-SUFFIX,dlpe.jci.com,REJECT
-IP-CIDR,180.167.3.68/32,REJECT,no-resolve
-IP-CIDR,165.225.116.38/32,REJECT,no-resolve
-IP-CIDR,165.225.110.28/32,REJECT,no-resolve
+DOMAIN-SUFFIX,zscaler.com,REJECT-DROP,extended-matching
+DOMAIN-SUFFIX,zscloud.net,REJECT-DROP,extended-matching
+DOMAIN-KEYWORD,rapid7,REJECT-DROP,extended-matching
+DOMAIN-SUFFIX,dlpe.jci.com,REJECT-DROP
+IP-CIDR,180.167.3.68/32,REJECT-DROP,no-resolve
+IP-CIDR,165.225.116.38/32,REJECT-DROP,no-resolve
+IP-CIDR,165.225.110.28/32,REJECT-DROP,no-resolve
 # Falcon
 DOMAIN-SUFFIX, assets.falcon.crowdstrike.com, REJECT
 DOMAIN-SUFFIX, assets-public.falcon.crowdstrike.com, REJECT
