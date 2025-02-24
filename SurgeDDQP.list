@@ -2,7 +2,7 @@
 #!desc=自定义规则
 #!category=DDQP
 [Rule]
-DOMAIN-SUFFIX,grok.com, 🤖 AI,extended-matching // gROK
+DOMAIN-SUFFIX,grok.com, 🤖 OpenAI ,extended-matching // gROK
 DOMAIN-SUFFIX,www.v2ex.com,🌀 Automatic,extended-matching // Added for: www.v2ex.com:443
 DOMAIN-SUFFIX,cambly.com,🇺🇸 United States,extended-matching // Added for: static.cambly.com:443
 IP-ASN,8075,♣️ Microsoft,no-resolve // 微软
