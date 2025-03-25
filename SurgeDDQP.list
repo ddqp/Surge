@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,go.johnsoncontrols.com,REJECT-DROP,extended-matching // JCI
 DOMAIN-SUFFIX,zscaler.com,REJECT-DROP,extended-matching
 DOMAIN-SUFFIX,zscloud.net,REJECT-DROP,extended-matching
 DOMAIN-SUFFIX,zscloud.net,REJECT-DROP,extended-matching
-DOMAIN-KEYWORD zscloudc, REJECT-DROP,extended-matching
+DOMAIN-KEYWORD, zscloudc, REJECT-DROP,extended-matching
 
 
 
