@@ -2,6 +2,10 @@
 #!desc=DDQP
 #!category=DDQP
 
+# 对于Rule, Script, URL Rewrite, Header Rewrite, Host
+# 新加入的定义将会追加在原始内容的顶部，具有最高的优先级
+# 模块中的规则只可以使用 DIRECT、REJECT、REJECT-TINYGIF 三个内置策略
+
 [Rule]
 #DOMAIN-SUFFIX,grok.com,🤖OpenAI,extended-matching//gROK
 # DOMAIN-SUFFIX,www.v2ex.com,🌀Automatic,extended-matching//Addedfor:www.v2ex.com:443
