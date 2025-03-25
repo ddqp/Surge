@@ -18,6 +18,11 @@ DOMAIN-SUFFIX,91porn.com,🌀 Automatic,extended-matching
 DOMAIN-SUFFIX,go.johnsoncontrols.com,REJECT-DROP,extended-matching // JCI
 DOMAIN-SUFFIX,zscaler.com,REJECT-DROP,extended-matching
 DOMAIN-SUFFIX,zscloud.net,REJECT-DROP,extended-matching
+DOMAIN-SUFFIX,zscloud.net,REJECT-DROP,extended-matching
+DOMAIN-KEYWORD zscloudc, REJECT-DROP,extended-matching
+
+
+
 DOMAIN-SUFFIX,zpath.net,REJECT-DROP,extended-matching
 DOMAIN-SUFFIX,zpath.vip,REJECT-DROP,extended-matching
 DOMAIN-KEYWORD,rapid7,REJECT-DROP,extended-matching
