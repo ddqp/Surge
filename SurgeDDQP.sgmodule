@@ -2,244 +2,241 @@
 #!desc=DDQP
 #!category=DDQP
 [Rule]
-#DOMAIN-SUFFIX,grok.com, 🤖 OpenAI ,extended-matching // gROK
-DOMAIN-SUFFIX,www.v2ex.com,🌀 Automatic,extended-matching // Added for: www.v2ex.com:443
-DOMAIN-SUFFIX,cambly.com,🇺🇸 United States,extended-matching // Added for: static.cambly.com:443
-IP-ASN,8075,♣️ Microsoft,no-resolve // 微软
+#DOMAIN-SUFFIX,grok.com,🤖OpenAI,extended-matching//gROK
+DOMAIN-SUFFIX,www.v2ex.com,🌀Automatic,extended-matching//Addedfor:www.v2ex.com:443
+DOMAIN-SUFFIX,cambly.com,🇺🇸UnitedStates,extended-matching//Addedfor:static.cambly.com:443
+IP-ASN,8075,♣️Microsoft,no-resolve//微软
 IP-CIDR,192.168.1.0/24,ℹ️内网,no-resolve
-# IP-CIDR,192.168.0.0/16,ℹ️内网,no-resolve
-DOMAIN-SUFFIX,haiwaikan.com,🌀 Automatic,extended-matching
-DOMAIN-SUFFIX,cdn.iz8qkg.com,🌀 Automatic,extended-matching
-DOMAIN-SUFFIX,cdn.kin6c1.com,🌀 Automatic
-DOMAIN-SUFFIX,cdn.v82u1l.com,🌀 Automatic,extended-matching
-# DOMAIN-KEYWORD,ddys,DIRECT
-DOMAIN-SUFFIX,91porn.com,🌀 Automatic,extended-matching
-# JCI Reject
-DOMAIN-SUFFIX,go.johnsoncontrols.com,REJECT-DROP,extended-matching // JCI
+#IP-CIDR,192.168.0.0/16,ℹ️内网,no-resolve
+DOMAIN-SUFFIX,haiwaikan.com,🌀Automatic,extended-matching
+DOMAIN-SUFFIX,cdn.iz8qkg.com,🌀Automatic,extended-matching
+DOMAIN-SUFFIX,cdn.kin6c1.com,🌀Automatic
+DOMAIN-SUFFIX,cdn.v82u1l.com,🌀Automatic,extended-matching
+#DOMAIN-KEYWORD,ddys,DIRECT
+DOMAIN-SUFFIX,91porn.com,🌀Automatic,extended-matching
+#JCIReject
+DOMAIN-SUFFIX,go.johnsoncontrols.com,REJECT-DROP,extended-matching//JCI
 DOMAIN-SUFFIX,zscaler.com,REJECT-DROP,extended-matching
 DOMAIN-SUFFIX,zscloud.net,REJECT-DROP,extended-matching
-DOMAIN-SUFFIX,zscloud.net,REJECT-DROP,extended-matching
-DOMAIN-KEYWORD, zscloudc, REJECT-DROP,extended-matching
+DOMAIN-KEYWORD,zscloudc,REJECT-DROP
 DOMAIN-SUFFIX,zpath.net,REJECT-DROP,extended-matching
 DOMAIN-SUFFIX,zpath.vip,REJECT-DROP,extended-matching
-DOMAIN-KEYWORD,rapid7,REJECT-DROP,extended-matching
+DOMAIN-KEYWORD,rapid7,REJECT-DROP
 DOMAIN-SUFFIX,dlpe.jci.com,REJECT-DROP
 IP-CIDR,180.167.3.68/32,REJECT-DROP,no-resolve
 IP-CIDR,165.225.116.38/32,REJECT-DROP,no-resolve
 IP-CIDR,165.225.110.28/32,REJECT-DROP,no-resolve
-# Falcon
-DOMAIN-SUFFIX, assets.falcon.crowdstrike.com, REJECT
-DOMAIN-SUFFIX, assets-public.falcon.crowdstrike.com, REJECT
-DOMAIN-SUFFIX, falconapi.us-2.crowdstrike.com, REJECT
-DOMAIN-SUFFIX, falcon.crowdstrike.com, REJECT
-DOMAIN-SUFFIX, ffc.eu-1.crowdstrike.com, REJECT
-DOMAIN-SUFFIX, ffc.laggar.gcw.crowdstrike.com, REJECT
-DOMAIN-SUFFIX, ffc.us-1.crowdstrike.com, REJECT
-DOMAIN-SUFFIX, ffc.us-2.crowdstrike.com, REJECT
-DOMAIN-SUFFIX, firehose.us-2.crowdstrike.com, REJECT
-DOMAIN-SUFFIX, lfodown01-b.cloudsink.net, REJECT
-DOMAIN-SUFFIX, lfodown01-gyr-maverick.cloudsink.net, REJECT
-DOMAIN-SUFFIX, ts01-b.cloudsink.net, REJECT
-DOMAIN-SUFFIX, ts01-gyr-maverick.cloudsink.net, REJECT
-IP-CIDR, 100.20.109.43/32, REJECT, no-resolve
-IP-CIDR, 100.20.76.137/32, REJECT, no-resolve
-IP-CIDR, 13.56.121.58/32, REJECT, no-resolve
-IP-CIDR, 13.56.127.239/32, REJECT, no-resolve
-IP-CIDR, 13.57.54.63/32, REJECT, no-resolve
-IP-CIDR, 15.200.14.201/32, REJECT, no-resolve
-IP-CIDR, 160.1.78.140/32, REJECT, no-resolve
-IP-CIDR, 18.193.144.218/32, REJECT, no-resolve
-IP-CIDR, 3.127.43.50/32, REJECT, no-resolve
-IP-CIDR, 34.209.79.111/32, REJECT, no-resolve
-IP-CIDR, 34.210.186.129/32, REJECT, no-resolve
-IP-CIDR, 35.162.224.228/32, REJECT, no-resolve
-IP-CIDR, 35.162.239.174/32, REJECT, no-resolve
-IP-CIDR, 3.64.81.130/32, REJECT, no-resolve
-IP-CIDR, 44.224.200.221/32, REJECT, no-resolve
-IP-CIDR, 44.225.216.237/32, REJECT, no-resolve
-IP-CIDR, 44.227.134.78/32, REJECT, no-resolve
-IP-CIDR, 44.241.254.47/32, REJECT, no-resolve
-IP-CIDR, 50.18.194.39/32, REJECT, no-resolve
-IP-CIDR, 50.18.198.237/32, REJECT, no-resolve
-IP-CIDR, 52.10.219.156/32, REJECT, no-resolve
-IP-CIDR, 52.52.117.52/32, REJECT, no-resolve
-IP-CIDR, 52.52.119.33/32, REJECT, no-resolve
-IP-CIDR, 52.52.149.168/32, REJECT, no-resolve
-IP-CIDR, 52.52.239.58/32, REJECT, no-resolve
-IP-CIDR, 52.52.60.244/32, REJECT, no-resolve
-IP-CIDR, 52.53.77.89/32, REJECT, no-resolve
-IP-CIDR, 52.8.134.130/32, REJECT, no-resolve
-IP-CIDR, 52.8.141.1/32, REJECT, no-resolve
-IP-CIDR, 52.8.160.82/32, REJECT, no-resolve
-IP-CIDR, 52.8.172.89/32, REJECT, no-resolve
-IP-CIDR, 52.8.173.58/32, REJECT, no-resolve
-IP-CIDR, 52.8.19.75/32, REJECT, no-resolve
-IP-CIDR, 52.8.32.113/32, REJECT, no-resolve
-IP-CIDR, 52.8.45.162/32, REJECT, no-resolve
-IP-CIDR, 52.8.5.240/32, REJECT, no-resolve
-IP-CIDR, 52.8.54.244/32, REJECT, no-resolve
-IP-CIDR, 52.8.61.206/32, REJECT, no-resolve
-IP-CIDR, 52.9.104.148/32, REJECT, no-resolve
-IP-CIDR, 52.9.212.176/32, REJECT, no-resolve
-IP-CIDR, 52.9.77.209/32, REJECT, no-resolve
-IP-CIDR, 52.9.82.94/32, REJECT, no-resolve
-IP-CIDR, 52.9.87.98/32, REJECT, no-resolve
-IP-CIDR, 54.183.105.3/32, REJECT, no-resolve
-IP-CIDR, 54.183.120.141/32, REJECT, no-resolve
-IP-CIDR, 54.183.122.156/32, REJECT, no-resolve
-IP-CIDR, 54.183.135.80/32, REJECT, no-resolve
-IP-CIDR, 54.183.140.32/32, REJECT, no-resolve
-IP-CIDR, 54.183.142.105/32, REJECT, no-resolve
-IP-CIDR, 54.183.148.116/32, REJECT, no-resolve
-IP-CIDR, 54.183.148.43/32, REJECT, no-resolve
-IP-CIDR, 54.183.215.154/32, REJECT, no-resolve
-IP-CIDR, 54.183.234.42/32, REJECT, no-resolve
-IP-CIDR, 54.183.24.162/32, REJECT, no-resolve
-IP-CIDR, 54.183.252.86/32, REJECT, no-resolve
-IP-CIDR, 54.183.34.154/32, REJECT, no-resolve
-IP-CIDR, 54.183.39.68/32, REJECT, no-resolve
-IP-CIDR, 54.183.51.31/32, REJECT, no-resolve
-IP-CIDR, 54.183.51.69/32, REJECT, no-resolve
-IP-CIDR, 54.183.52.221/32, REJECT, no-resolve
-IP-CIDR, 54.188.85.187/32, REJECT, no-resolve
-IP-CIDR, 54.193.117.199/32, REJECT, no-resolve
-IP-CIDR, 54.193.196.61/32, REJECT, no-resolve
-IP-CIDR, 54.193.27.226/32, REJECT, no-resolve
-IP-CIDR, 54.193.29.47/32, REJECT, no-resolve
-IP-CIDR, 54.193.67.98/32, REJECT, no-resolve
-IP-CIDR, 54.193.86.245/32, REJECT, no-resolve
-IP-CIDR, 54.193.87.57/32, REJECT, no-resolve
-IP-CIDR, 54.193.90.171/32, REJECT, no-resolve
-IP-CIDR, 54.193.93.19/32, REJECT, no-resolve
-IP-CIDR, 54.200.109.111/32, REJECT, no-resolve
-IP-CIDR, 54.215.131.232/32, REJECT, no-resolve
-IP-CIDR, 54.215.154.80/32, REJECT, no-resolve
-IP-CIDR, 54.215.169.199/32, REJECT, no-resolve
-IP-CIDR, 54.215.169.38/32, REJECT, no-resolve
-IP-CIDR, 54.215.170.42/32, REJECT, no-resolve
-IP-CIDR, 54.215.176.108/32, REJECT, no-resolve
-IP-CIDR, 54.215.183.157/32, REJECT, no-resolve
-IP-CIDR, 54.215.193.131/32, REJECT, no-resolve
-IP-CIDR, 54.215.202.179/32, REJECT, no-resolve
-IP-CIDR, 54.215.226.55/32, REJECT, no-resolve
-IP-CIDR, 54.218.244.79/32, REJECT, no-resolve
-IP-CIDR, 54.219.112.243/32, REJECT, no-resolve
-IP-CIDR, 54.219.115.12/32, REJECT, no-resolve
-IP-CIDR, 54.219.137.54/32, REJECT, no-resolve
-IP-CIDR, 54.219.140.50/32, REJECT, no-resolve
-IP-CIDR, 54.219.141.250/32, REJECT, no-resolve
-IP-CIDR, 54.219.145.181/32, REJECT, no-resolve
-IP-CIDR, 54.219.147.253/32, REJECT, no-resolve
-IP-CIDR, 54.219.148.161/32, REJECT, no-resolve
-IP-CIDR, 54.219.149.89/32, REJECT, no-resolve
-IP-CIDR, 54.219.149.92/32, REJECT, no-resolve
-IP-CIDR, 54.219.151.1/32, REJECT, no-resolve
-IP-CIDR, 54.219.151.27/32, REJECT, no-resolve
-IP-CIDR, 54.219.153.248/32, REJECT, no-resolve
-IP-CIDR, 54.219.158.53/32, REJECT, no-resolve
-IP-CIDR, 54.219.159.84/32, REJECT, no-resolve
-IP-CIDR, 54.219.161.141/32, REJECT, no-resolve
-IP-CIDR, 54.219.179.25/32, REJECT, no-resolve
-IP-CIDR, 54.241.138.180/32, REJECT, no-resolve
-IP-CIDR, 54.241.146.67/32, REJECT, no-resolve
-IP-CIDR, 54.241.148.127/32, REJECT, no-resolve
-IP-CIDR, 54.241.150.134/32, REJECT, no-resolve
-IP-CIDR, 54.241.161.242/32, REJECT, no-resolve
-IP-CIDR, 54.241.161.60/32, REJECT, no-resolve
-IP-CIDR, 54.241.162.180/32, REJECT, no-resolve
-IP-CIDR, 54.241.162.64/32, REJECT, no-resolve
-IP-CIDR, 54.241.164.212/32, REJECT, no-resolve
-IP-CIDR, 54.241.175.140/32, REJECT, no-resolve
-IP-CIDR, 54.241.175.52/32, REJECT, no-resolve
-IP-CIDR, 54.241.179.52/32, REJECT, no-resolve
-IP-CIDR, 54.241.181.242/32, REJECT, no-resolve
-IP-CIDR, 54.241.181.78/32, REJECT, no-resolve
-IP-CIDR, 54.241.182.78/32, REJECT, no-resolve
-IP-CIDR, 54.241.183.151/32, REJECT, no-resolve
-IP-CIDR, 54.241.183.229/32, REJECT, no-resolve
-IP-CIDR, 54.241.183.232/32, REJECT, no-resolve
-IP-CIDR, 54.241.184.161/32, REJECT, no-resolve
-IP-CIDR, 54.241.185.201/32, REJECT, no-resolve
-IP-CIDR, 54.241.186.124/32, REJECT, no-resolve
-IP-CIDR, 54.241.197.58/32, REJECT, no-resolve
-IP-CIDR, 54.67.105.202/32, REJECT, no-resolve
-IP-CIDR, 54.67.108.17/32, REJECT, no-resolve
-IP-CIDR, 54.67.114.188/32, REJECT, no-resolve
-IP-CIDR, 54.67.119.89/32, REJECT, no-resolve
-IP-CIDR, 54.67.122.238/32, REJECT, no-resolve
-IP-CIDR, 54.67.123.100/32, REJECT, no-resolve
-IP-CIDR, 54.67.123.150/32, REJECT, no-resolve
-IP-CIDR, 54.67.123.234/32, REJECT, no-resolve
-IP-CIDR, 54.67.17.131/32, REJECT, no-resolve
-IP-CIDR, 54.67.24.156/32, REJECT, no-resolve
-IP-CIDR, 54.67.26.184/32, REJECT, no-resolve
-IP-CIDR, 54.67.33.233/32, REJECT, no-resolve
-IP-CIDR, 54.67.37.234/32, REJECT, no-resolve
-IP-CIDR, 54.67.37.78/32, REJECT, no-resolve
-IP-CIDR, 54.67.4.108/32, REJECT, no-resolve
-IP-CIDR, 54.67.41.192/32, REJECT, no-resolve
-IP-CIDR, 54.67.48.56/32, REJECT, no-resolve
-IP-CIDR, 54.67.51.32/32, REJECT, no-resolve
-IP-CIDR, 54.67.5.136/32, REJECT, no-resolve
-IP-CIDR, 54.67.54.116/32, REJECT, no-resolve
-IP-CIDR, 54.67.6.201/32, REJECT, no-resolve
-IP-CIDR, 54.67.64.61/32, REJECT, no-resolve
-IP-CIDR, 54.67.68.88/32, REJECT, no-resolve
-IP-CIDR, 54.67.72.218/32, REJECT, no-resolve
-IP-CIDR, 54.67.78.134/32, REJECT, no-resolve
-IP-CIDR, 54.67.80.244/32, REJECT, no-resolve
-IP-CIDR, 54.67.8.240/32, REJECT, no-resolve
-IP-CIDR, 54.67.92.206/32, REJECT, no-resolve
-IP-CIDR, 54.67.96.255/32, REJECT, no-resolve
-IP-CIDR, 140.210.152.48/32, REJECT, no-resolve
-IP-CIDR, 58.220.95.15/32, REJECT, no-resolve
-IP-CIDR, 54.67.99.247/32, REJECT, no-resolve
-IP-CIDR, 54.69.20.169/32, REJECT, no-resolve
-IP-CIDR, 96.127.77.135/32, REJECT, no-resolve
-IP-CIDR, 58.220.95.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 64.215.22.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 87.58.64.0/18,REJECT-DROP,no-resolve
-IP-CIDR, 94.188.131.0/25,REJECT-DROP,no-resolve
-IP-CIDR, 94.188.139.64/26,REJECT-DROP,no-resolve
-IP-CIDR, 94.188.248.64/26,REJECT-DROP,no-resolve
-IP-CIDR, 98.98.26.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 98.98.27.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 98.98.28.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 101.2.192.0/18,REJECT-DROP,no-resolve
-IP-CIDR, 104.129.192.0/20,REJECT-DROP,no-resolve
-IP-CIDR, 112.137.170.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 124.248.141.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 128.177.125.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 136.226.0.0/16,REJECT-DROP,no-resolve
-IP-CIDR, 137.83.128.0/18,REJECT-DROP,no-resolve
-IP-CIDR, 140.210.152.0/23,REJECT-DROP,no-resolve
-IP-CIDR, 147.161.128.0/17,REJECT-DROP,no-resolve
-IP-CIDR, 154.113.23.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 165.225.0.0/17,REJECT-DROP,no-resolve
-IP-CIDR, 165.225.192.0/18,REJECT-DROP,no-resolve
-IP-CIDR, 167.103.0.0/16,REJECT-DROP,no-resolve
-IP-CIDR, 170.85.0.0/16,REJECT-DROP,no-resolve
-IP-CIDR, 185.46.212.0/22,REJECT-DROP,no-resolve
-IP-CIDR, 194.9.96.0/20,REJECT-DROP,no-resolve
-IP-CIDR, 194.9.112.0/22,REJECT-DROP,no-resolve
-IP-CIDR, 194.9.116.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 196.23.154.64/27,REJECT-DROP,no-resolve
-IP-CIDR, 196.23.154.96/27,REJECT-DROP,no-resolve
-IP-CIDR, 197.98.201.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 197.156.241.224/27,REJECT-DROP,no-resolve
-IP-CIDR, 198.14.64.0/18,REJECT-DROP,no-resolve
-IP-CIDR, 199.168.148.0/23,REJECT-DROP,no-resolve
-IP-CIDR, 209.55.128.0/18,REJECT-DROP,no-resolve
-IP-CIDR, 209.55.192.0/19,REJECT-DROP,no-resolve
-IP-CIDR, 211.144.19.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 220.243.154.0/23,REJECT-DROP,no-resolve
-IP-CIDR, 221.122.91.0/24,REJECT-DROP,no-resolve
-IP-CIDR, 2605:4300::/32,REJECT-DROP,no-resolve
-IP-CIDR, 2a03:eec0::/32,REJECT-DROP,no-resolve
-IP-CIDR, 2400:7aa0::/32,REJECT-DROP,no-resolve
-IP-CIDR, 205.220.0.0/17,REJECT-DROP,no-resolve
-IP-CIDR, 167.106.0.0/16,REJECT-DROP,no-resolve
-DOMAIN-SUFFIX,zscaler.com,REJECT
-DOMAIN-SUFFIX,zscloud.net,REJECT
+#Falcon
+DOMAIN-SUFFIX,assets.falcon.crowdstrike.com,REJECT
+DOMAIN-SUFFIX,assets-public.falcon.crowdstrike.com,REJECT
+DOMAIN-SUFFIX,falconapi.us-2.crowdstrike.com,REJECT
+DOMAIN-SUFFIX,falcon.crowdstrike.com,REJECT
+DOMAIN-SUFFIX,ffc.eu-1.crowdstrike.com,REJECT
+DOMAIN-SUFFIX,ffc.laggar.gcw.crowdstrike.com,REJECT
+DOMAIN-SUFFIX,ffc.us-1.crowdstrike.com,REJECT
+DOMAIN-SUFFIX,ffc.us-2.crowdstrike.com,REJECT
+DOMAIN-SUFFIX,firehose.us-2.crowdstrike.com,REJECT
+DOMAIN-SUFFIX,lfodown01-b.cloudsink.net,REJECT
+DOMAIN-SUFFIX,lfodown01-gyr-maverick.cloudsink.net,REJECT
+DOMAIN-SUFFIX,ts01-b.cloudsink.net,REJECT
+DOMAIN-SUFFIX,ts01-gyr-maverick.cloudsink.net,REJECT
+IP-CIDR,100.20.109.43/32,REJECT,no-resolve
+IP-CIDR,100.20.76.137/32,REJECT,no-resolve
+IP-CIDR,13.56.121.58/32,REJECT,no-resolve
+IP-CIDR,13.56.127.239/32,REJECT,no-resolve
+IP-CIDR,13.57.54.63/32,REJECT,no-resolve
+IP-CIDR,15.200.14.201/32,REJECT,no-resolve
+IP-CIDR,160.1.78.140/32,REJECT,no-resolve
+IP-CIDR,18.193.144.218/32,REJECT,no-resolve
+IP-CIDR,3.127.43.50/32,REJECT,no-resolve
+IP-CIDR,34.209.79.111/32,REJECT,no-resolve
+IP-CIDR,34.210.186.129/32,REJECT,no-resolve
+IP-CIDR,35.162.224.228/32,REJECT,no-resolve
+IP-CIDR,35.162.239.174/32,REJECT,no-resolve
+IP-CIDR,3.64.81.130/32,REJECT,no-resolve
+IP-CIDR,44.224.200.221/32,REJECT,no-resolve
+IP-CIDR,44.225.216.237/32,REJECT,no-resolve
+IP-CIDR,44.227.134.78/32,REJECT,no-resolve
+IP-CIDR,44.241.254.47/32,REJECT,no-resolve
+IP-CIDR,50.18.194.39/32,REJECT,no-resolve
+IP-CIDR,50.18.198.237/32,REJECT,no-resolve
+IP-CIDR,52.10.219.156/32,REJECT,no-resolve
+IP-CIDR,52.52.117.52/32,REJECT,no-resolve
+IP-CIDR,52.52.119.33/32,REJECT,no-resolve
+IP-CIDR,52.52.149.168/32,REJECT,no-resolve
+IP-CIDR,52.52.239.58/32,REJECT,no-resolve
+IP-CIDR,52.52.60.244/32,REJECT,no-resolve
+IP-CIDR,52.53.77.89/32,REJECT,no-resolve
+IP-CIDR,52.8.134.130/32,REJECT,no-resolve
+IP-CIDR,52.8.141.1/32,REJECT,no-resolve
+IP-CIDR,52.8.160.82/32,REJECT,no-resolve
+IP-CIDR,52.8.172.89/32,REJECT,no-resolve
+IP-CIDR,52.8.173.58/32,REJECT,no-resolve
+IP-CIDR,52.8.19.75/32,REJECT,no-resolve
+IP-CIDR,52.8.32.113/32,REJECT,no-resolve
+IP-CIDR,52.8.45.162/32,REJECT,no-resolve
+IP-CIDR,52.8.5.240/32,REJECT,no-resolve
+IP-CIDR,52.8.54.244/32,REJECT,no-resolve
+IP-CIDR,52.8.61.206/32,REJECT,no-resolve
+IP-CIDR,52.9.104.148/32,REJECT,no-resolve
+IP-CIDR,52.9.212.176/32,REJECT,no-resolve
+IP-CIDR,52.9.77.209/32,REJECT,no-resolve
+IP-CIDR,52.9.82.94/32,REJECT,no-resolve
+IP-CIDR,52.9.87.98/32,REJECT,no-resolve
+IP-CIDR,54.183.105.3/32,REJECT,no-resolve
+IP-CIDR,54.183.120.141/32,REJECT,no-resolve
+IP-CIDR,54.183.122.156/32,REJECT,no-resolve
+IP-CIDR,54.183.135.80/32,REJECT,no-resolve
+IP-CIDR,54.183.140.32/32,REJECT,no-resolve
+IP-CIDR,54.183.142.105/32,REJECT,no-resolve
+IP-CIDR,54.183.148.116/32,REJECT,no-resolve
+IP-CIDR,54.183.148.43/32,REJECT,no-resolve
+IP-CIDR,54.183.215.154/32,REJECT,no-resolve
+IP-CIDR,54.183.234.42/32,REJECT,no-resolve
+IP-CIDR,54.183.24.162/32,REJECT,no-resolve
+IP-CIDR,54.183.252.86/32,REJECT,no-resolve
+IP-CIDR,54.183.34.154/32,REJECT,no-resolve
+IP-CIDR,54.183.39.68/32,REJECT,no-resolve
+IP-CIDR,54.183.51.31/32,REJECT,no-resolve
+IP-CIDR,54.183.51.69/32,REJECT,no-resolve
+IP-CIDR,54.183.52.221/32,REJECT,no-resolve
+IP-CIDR,54.188.85.187/32,REJECT,no-resolve
+IP-CIDR,54.193.117.199/32,REJECT,no-resolve
+IP-CIDR,54.193.196.61/32,REJECT,no-resolve
+IP-CIDR,54.193.27.226/32,REJECT,no-resolve
+IP-CIDR,54.193.29.47/32,REJECT,no-resolve
+IP-CIDR,54.193.67.98/32,REJECT,no-resolve
+IP-CIDR,54.193.86.245/32,REJECT,no-resolve
+IP-CIDR,54.193.87.57/32,REJECT,no-resolve
+IP-CIDR,54.193.90.171/32,REJECT,no-resolve
+IP-CIDR,54.193.93.19/32,REJECT,no-resolve
+IP-CIDR,54.200.109.111/32,REJECT,no-resolve
+IP-CIDR,54.215.131.232/32,REJECT,no-resolve
+IP-CIDR,54.215.154.80/32,REJECT,no-resolve
+IP-CIDR,54.215.169.199/32,REJECT,no-resolve
+IP-CIDR,54.215.169.38/32,REJECT,no-resolve
+IP-CIDR,54.215.170.42/32,REJECT,no-resolve
+IP-CIDR,54.215.176.108/32,REJECT,no-resolve
+IP-CIDR,54.215.183.157/32,REJECT,no-resolve
+IP-CIDR,54.215.193.131/32,REJECT,no-resolve
+IP-CIDR,54.215.202.179/32,REJECT,no-resolve
+IP-CIDR,54.215.226.55/32,REJECT,no-resolve
+IP-CIDR,54.218.244.79/32,REJECT,no-resolve
+IP-CIDR,54.219.112.243/32,REJECT,no-resolve
+IP-CIDR,54.219.115.12/32,REJECT,no-resolve
+IP-CIDR,54.219.137.54/32,REJECT,no-resolve
+IP-CIDR,54.219.140.50/32,REJECT,no-resolve
+IP-CIDR,54.219.141.250/32,REJECT,no-resolve
+IP-CIDR,54.219.145.181/32,REJECT,no-resolve
+IP-CIDR,54.219.147.253/32,REJECT,no-resolve
+IP-CIDR,54.219.148.161/32,REJECT,no-resolve
+IP-CIDR,54.219.149.89/32,REJECT,no-resolve
+IP-CIDR,54.219.149.92/32,REJECT,no-resolve
+IP-CIDR,54.219.151.1/32,REJECT,no-resolve
+IP-CIDR,54.219.151.27/32,REJECT,no-resolve
+IP-CIDR,54.219.153.248/32,REJECT,no-resolve
+IP-CIDR,54.219.158.53/32,REJECT,no-resolve
+IP-CIDR,54.219.159.84/32,REJECT,no-resolve
+IP-CIDR,54.219.161.141/32,REJECT,no-resolve
+IP-CIDR,54.219.179.25/32,REJECT,no-resolve
+IP-CIDR,54.241.138.180/32,REJECT,no-resolve
+IP-CIDR,54.241.146.67/32,REJECT,no-resolve
+IP-CIDR,54.241.148.127/32,REJECT,no-resolve
+IP-CIDR,54.241.150.134/32,REJECT,no-resolve
+IP-CIDR,54.241.161.242/32,REJECT,no-resolve
+IP-CIDR,54.241.161.60/32,REJECT,no-resolve
+IP-CIDR,54.241.162.180/32,REJECT,no-resolve
+IP-CIDR,54.241.162.64/32,REJECT,no-resolve
+IP-CIDR,54.241.164.212/32,REJECT,no-resolve
+IP-CIDR,54.241.175.140/32,REJECT,no-resolve
+IP-CIDR,54.241.175.52/32,REJECT,no-resolve
+IP-CIDR,54.241.179.52/32,REJECT,no-resolve
+IP-CIDR,54.241.181.242/32,REJECT,no-resolve
+IP-CIDR,54.241.181.78/32,REJECT,no-resolve
+IP-CIDR,54.241.182.78/32,REJECT,no-resolve
+IP-CIDR,54.241.183.151/32,REJECT,no-resolve
+IP-CIDR,54.241.183.229/32,REJECT,no-resolve
+IP-CIDR,54.241.183.232/32,REJECT,no-resolve
+IP-CIDR,54.241.184.161/32,REJECT,no-resolve
+IP-CIDR,54.241.185.201/32,REJECT,no-resolve
+IP-CIDR,54.241.186.124/32,REJECT,no-resolve
+IP-CIDR,54.241.197.58/32,REJECT,no-resolve
+IP-CIDR,54.67.105.202/32,REJECT,no-resolve
+IP-CIDR,54.67.108.17/32,REJECT,no-resolve
+IP-CIDR,54.67.114.188/32,REJECT,no-resolve
+IP-CIDR,54.67.119.89/32,REJECT,no-resolve
+IP-CIDR,54.67.122.238/32,REJECT,no-resolve
+IP-CIDR,54.67.123.100/32,REJECT,no-resolve
+IP-CIDR,54.67.123.150/32,REJECT,no-resolve
+IP-CIDR,54.67.123.234/32,REJECT,no-resolve
+IP-CIDR,54.67.17.131/32,REJECT,no-resolve
+IP-CIDR,54.67.24.156/32,REJECT,no-resolve
+IP-CIDR,54.67.26.184/32,REJECT,no-resolve
+IP-CIDR,54.67.33.233/32,REJECT,no-resolve
+IP-CIDR,54.67.37.234/32,REJECT,no-resolve
+IP-CIDR,54.67.37.78/32,REJECT,no-resolve
+IP-CIDR,54.67.4.108/32,REJECT,no-resolve
+IP-CIDR,54.67.41.192/32,REJECT,no-resolve
+IP-CIDR,54.67.48.56/32,REJECT,no-resolve
+IP-CIDR,54.67.51.32/32,REJECT,no-resolve
+IP-CIDR,54.67.5.136/32,REJECT,no-resolve
+IP-CIDR,54.67.54.116/32,REJECT,no-resolve
+IP-CIDR,54.67.6.201/32,REJECT,no-resolve
+IP-CIDR,54.67.64.61/32,REJECT,no-resolve
+IP-CIDR,54.67.68.88/32,REJECT,no-resolve
+IP-CIDR,54.67.72.218/32,REJECT,no-resolve
+IP-CIDR,54.67.78.134/32,REJECT,no-resolve
+IP-CIDR,54.67.80.244/32,REJECT,no-resolve
+IP-CIDR,54.67.8.240/32,REJECT,no-resolve
+IP-CIDR,54.67.92.206/32,REJECT,no-resolve
+IP-CIDR,54.67.96.255/32,REJECT,no-resolve
+IP-CIDR,140.210.152.48/32,REJECT,no-resolve
+IP-CIDR,58.220.95.15/32,REJECT,no-resolve
+IP-CIDR,54.67.99.247/32,REJECT,no-resolve
+IP-CIDR,54.69.20.169/32,REJECT,no-resolve
+IP-CIDR,96.127.77.135/32,REJECT,no-resolve
+IP-CIDR,58.220.95.0/24,REJECT-DROP,no-resolve
+IP-CIDR,64.215.22.0/24,REJECT-DROP,no-resolve
+IP-CIDR,87.58.64.0/18,REJECT-DROP,no-resolve
+IP-CIDR,94.188.131.0/25,REJECT-DROP,no-resolve
+IP-CIDR,94.188.139.64/26,REJECT-DROP,no-resolve
+IP-CIDR,94.188.248.64/26,REJECT-DROP,no-resolve
+IP-CIDR,98.98.26.0/24,REJECT-DROP,no-resolve
+IP-CIDR,98.98.27.0/24,REJECT-DROP,no-resolve
+IP-CIDR,98.98.28.0/24,REJECT-DROP,no-resolve
+IP-CIDR,101.2.192.0/18,REJECT-DROP,no-resolve
+IP-CIDR,104.129.192.0/20,REJECT-DROP,no-resolve
+IP-CIDR,112.137.170.0/24,REJECT-DROP,no-resolve
+IP-CIDR,124.248.141.0/24,REJECT-DROP,no-resolve
+IP-CIDR,128.177.125.0/24,REJECT-DROP,no-resolve
+IP-CIDR,136.226.0.0/16,REJECT-DROP,no-resolve
+IP-CIDR,137.83.128.0/18,REJECT-DROP,no-resolve
+IP-CIDR,140.210.152.0/23,REJECT-DROP,no-resolve
+IP-CIDR,147.161.128.0/17,REJECT-DROP,no-resolve
+IP-CIDR,154.113.23.0/24,REJECT-DROP,no-resolve
+IP-CIDR,165.225.0.0/17,REJECT-DROP,no-resolve
+IP-CIDR,165.225.192.0/18,REJECT-DROP,no-resolve
+IP-CIDR,167.103.0.0/16,REJECT-DROP,no-resolve
+IP-CIDR,170.85.0.0/16,REJECT-DROP,no-resolve
+IP-CIDR,185.46.212.0/22,REJECT-DROP,no-resolve
+IP-CIDR,194.9.96.0/20,REJECT-DROP,no-resolve
+IP-CIDR,194.9.112.0/22,REJECT-DROP,no-resolve
+IP-CIDR,194.9.116.0/24,REJECT-DROP,no-resolve
+IP-CIDR,196.23.154.64/27,REJECT-DROP,no-resolve
+IP-CIDR,196.23.154.96/27,REJECT-DROP,no-resolve
+IP-CIDR,197.98.201.0/24,REJECT-DROP,no-resolve
+IP-CIDR,197.156.241.224/27,REJECT-DROP,no-resolve
+IP-CIDR,198.14.64.0/18,REJECT-DROP,no-resolve
+IP-CIDR,199.168.148.0/23,REJECT-DROP,no-resolve
+IP-CIDR,209.55.128.0/18,REJECT-DROP,no-resolve
+IP-CIDR,209.55.192.0/19,REJECT-DROP,no-resolve
+IP-CIDR,211.144.19.0/24,REJECT-DROP,no-resolve
+IP-CIDR,220.243.154.0/23,REJECT-DROP,no-resolve
+IP-CIDR,221.122.91.0/24,REJECT-DROP,no-resolve
+IP-CIDR,2605:4300::/32,REJECT-DROP,no-resolve
+IP-CIDR,2a03:eec0::/32,REJECT-DROP,no-resolve
+IP-CIDR,2400:7aa0::/32,REJECT-DROP,no-resolve
+IP-CIDR,205.220.0.0/17,REJECT-DROP,no-resolve
+IP-CIDR,167.106.0.0/16,REJECT-DROP,no-resolve
 IP-CIDR,58.220.95.15/32,REJECT,no-resolve
 IP-CIDR,140.210.152.48/32,REJECT,no-resolve
