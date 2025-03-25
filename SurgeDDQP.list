@@ -1,6 +1,7 @@
 #!name=ddqp
 #!desc=DDQP
 #!category=DDQP
+
 [Rule]
 #DOMAIN-SUFFIX,grok.com,🤖OpenAI,extended-matching//gROK
 # DOMAIN-SUFFIX,www.v2ex.com,🌀Automatic,extended-matching//Addedfor:www.v2ex.com:443
