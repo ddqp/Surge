@@ -190,6 +190,7 @@ IP-CIDR, 54.67.8.240/32, REJECT, no-resolve
 IP-CIDR, 54.67.92.206/32, REJECT, no-resolve
 IP-CIDR, 54.67.96.255/32, REJECT, no-resolve
 IP-CIDR, 140.210.152.48/32, REJECT, no-resolve
+IP-CIDR, 58.220.95.15/32, REJECT, no-resolve
 
 IP-CIDR, 54.67.99.247/32, REJECT, no-resolve
 IP-CIDR, 54.69.20.169/32, REJECT, no-resolve
