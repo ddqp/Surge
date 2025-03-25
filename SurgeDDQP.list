@@ -1,5 +1,5 @@
-#!name=ddqp自定义
-#!desc=自定义规则
+#!name=ddqp
+#!desc=DDQP
 #!category=DDQP
 [Rule]
 #DOMAIN-SUFFIX,grok.com, 🤖 OpenAI ,extended-matching // gROK
