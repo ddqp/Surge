@@ -31,6 +31,7 @@ DOMAIN-SUFFIX,dlpe.jci.com,REJECT-DROP
 IP-CIDR,180.167.3.68/32,REJECT-DROP,no-resolve
 IP-CIDR,165.225.116.38/32,REJECT-DROP,no-resolve
 IP-CIDR,165.225.110.28/32,REJECT-DROP,no-resolve
+DOMAIN-SUFFIX,bitglass.com,REJECT-DROP,extended-matching
 #Falcon
 DOMAIN-SUFFIX,assets.falcon.crowdstrike.com,REJECT
 DOMAIN-SUFFIX,assets-public.falcon.crowdstrike.com,REJECT
