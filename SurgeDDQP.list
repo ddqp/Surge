@@ -9,11 +9,11 @@
 [Rule]
 # claude
 DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net,🤖 AI
-DOMAIN-SUFFIX,anthropic.com,🤖 AI
-DOMAIN-SUFFIX,claude.ai,🤖 AI
-DOMAIN-SUFFIX,claudeusercontent.com,🤖 AI
-DOMAIN-SUFFIX,intercomcdn.com,🤖 AI
-DOMAIN-SUFFIX,cdn.usefathom.com,🤖 AI
+DOMAIN-SUFFIX,anthropic.com,🤖 OpenAI
+DOMAIN-SUFFIX,claude.ai,🤖 OpenAI
+DOMAIN-SUFFIX,claudeusercontent.com,🤖 OpenAI
+DOMAIN-SUFFIX,intercomcdn.com,🤖 OpenAI
+DOMAIN-SUFFIX,cdn.usefathom.com,🤖 OpenAI
 
 #DOMAIN-SUFFIX,grok.com,🤖 AI,extended-matching//gROK
 # DOMAIN-SUFFIX,www.v2ex.com,🌀Automatic,extended-matching//Addedfor:www.v2ex.com:443
