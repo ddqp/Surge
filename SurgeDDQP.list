@@ -8,7 +8,7 @@
 
 [Rule]
 # claude
-DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net,🤖 AI
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net,🤖 OpenAI
 DOMAIN-SUFFIX,anthropic.com,🤖 OpenAI
 DOMAIN-SUFFIX,claude.ai,🤖 OpenAI
 DOMAIN-SUFFIX,claudeusercontent.com,🤖 OpenAI
